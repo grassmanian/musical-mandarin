@@ -4,11 +4,11 @@ Input some Chinese characters, and this tool will play back a machine generated 
 
 # Usage
 
-(Currently not working)
-
 ```
 python musical-mandarin.py 話說天下大勢，分久必合，合久必分
 ```
+
+For full usage notes, `python musical-mandarin.py --help`
 
 
 # Dependencies:
