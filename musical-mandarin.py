@@ -26,15 +26,12 @@ group.add_argument('-i', '--interactive', action='store_true', help="Interactive
 args = parser.parse_args()
 
 if args.interactive:
+    print('Input text, or Ctrl+D to exit')
     while True:
         user_string = input('> ')
+        song = AudioSegment.from_file(io.BytesIO(fetch_audio(user_string)), format="mp3")
+        play(song)
 
-        if True:
-            # Do something
-            continue
-        else:
-            #Do something
-            break
 else:
     song = AudioSegment.from_file(io.BytesIO(fetch_audio(args.string)), format="mp3")
     play(song)
