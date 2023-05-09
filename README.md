@@ -1,8 +1,10 @@
 # musical-mandarin
 
-Provide toned audio for input Mandarin text
+Input some Chinese characters, and this tool will play back a machine generated vocalization of the text. This tool is envisioned to assist in practicing tones and pronunciation. 
 
 # Usage
+
+(Currently not working)
 
 ```
 python musical-mandarin.py 話說天下大勢，分久必合，合久必分
